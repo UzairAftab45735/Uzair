@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #EE836E;
+}
+#header-nav{
+	background-color: #5D5C5D;
+	border-radius: 0;
+}
+.navbar-brand h1{ /*Restaurant name*/
+ 	font-family: 'Lora', serif;
+ 	color: #E85C41;
+ 	font-size: 2em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	line-height: .50px;
+ }
+.navbar-brand a:hover, .navbar-brand a:focus{
+ 	text-decoration: none;	
+}
+#nav-list a{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #E85C41;
+	text-align: center; 
+	border: 1px solid #E85C41;
+}
+#nav-list a:hover{
+	background: #B7B7B7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #E85C41;	
+}
+/*.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}*/
+
+h1{
+	font-family: 'Lora', serif;
+	color: #5D5C5D;
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 50px;
+	
+}
+#div-chicken, #div-beef, #div-suchi{
+	border: 3px solid #373737;
+ 	background-color: #B7B7B7;
+ 	margin-bottom: 20px;
+ 	box-shadow: 0 0 15px #3F0C1F;
+}
+.container h3{
+	/*text-align:center; */
+	font-family: cursive;
+	font-size: 2em;
+	color: #E85C41;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 20px;
+}
+.container p{
+	text-align: left; 
+	font-family: 'Lora', serif;
+	color: black;
+	line-height: 1.7em;
+}
